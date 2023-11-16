@@ -40,7 +40,7 @@
                </div>
                <div class="d-flex justify-content-end">
                   <div class="mb-3">
-                     <a href="{{ route('password.request') }}" class="link-primary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Forgot Password?</a>
+                     {{-- <a href="{{ route('password.request') }}" class="link-primary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Forgot Password?</a> --}}
                   </div>
                </div>
                <button type="submit" class="btn btn-dark col-12 mt-4" id="loginBtn">Log in</button>
